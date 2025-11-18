@@ -8,7 +8,7 @@
 
 We identified a critical blockage in the advertising indsutry when it comes to AI: **Brands want to personalize storytelling with customers, but they are terrified of Generative AI.**
 
-Legal teams kill projects because of hallucination risks, while when you stack up the numbers, many teams will kill projects because LLM inference at scale for campaigns is are too expensive.
+Legal teams kill projects because of hallucination risks, while when you stack up the numbers, many creative teams will kill projects because LLM inference at scale is too expensive.
 
 **UNA** is the answer. It is not a wrapper for ChatGPT. It is a **System Design solution** to there problems that allow brands to handcraft content with creative teams, but use genertive AI to create safe, trusted variaions in content. 
 By decoupling narrative logic from asset generation, we've created an engine that delivers bespoke, 10-minute audiobooks in under 8 seconds—safely, affordably, and knowing we can trust every word.
@@ -84,12 +84,12 @@ The engine's output is structured data, not just text. We can pipe this directly
 
 We went from a concept to a deployed, scalable API in less than two weeks.
 
-*   **Days 1-5:** Architecture design, Logic Engine coding, and Narrative structuring.
-*   **Days 6-9:** Parallel workflows: Narrative Designer generating/polishing content via Claude; Developer building the Audio Stitching and Caching layers.
+*   **Days 1-5:** Architecture design, Logic Engine coding, and Narrative structuring. Narrative Designer creating webapp front end design assets with Claude, MidJourney & Kling.
+*   **Days 6-9:** Parallel workflows: Narrative Designer writing/expanding/polishing content via Claude; Developer building the Audio Stitching and Caching layers.
 *   **Days 10-12:** Integration, Load Testing, and Mobile App connection.
 
-UNA is proof that you don't need a massive team or a billion-dollar model to build world-class generative experiences. You just need **better system design.**
+UNA is proof that you don't need a massive team to build world-class generative experiences. You just need **better system design.**
 
 ---
 
-*Built by JPEG, DMT and Love for lewis Carroll*
+*Built by JPEG, DMT and Love for Lewis Carroll*
